@@ -1,0 +1,32 @@
+.image img {
+    width: 200px;
+    height:200px ;
+    border-radius: 40% ;
+    background-color: yellow;
+    border: 100px;
+    
+}
+.rectagle{
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    margin-left: 500px;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 40px blue;
+    margin-bottom: 50px;
+}
+.circle img{
+    border-radius: 50%;
+    margin-left: 550px;
+    justify-content: center;
+
+
+}
+body{
+    background-color: purple;
+}
+
+
+
+

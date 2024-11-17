@@ -1,0 +1,98 @@
+
+#{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-links{
+    display:flex;
+    background-color: maroon;
+    padding: 40px;
+    color: bisque;
+    justify-content:space-around;
+    list-style: none;
+    text-decoration:none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.logindiv{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+
+}
+ol li:hover{
+    color: aquamarine;
+    font-size: 40px;
+}
+ol li:visited{
+    color: blue;
+    
+}
+.heading2{
+    font-family: Brush Script MT;
+    color:red ;
+    font-size: xxx-large
+}
+button>li{
+    background-color: tomato ;
+    color: white;
+    padding: 15px 25px 12px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    /* width: 13px; */
+
+}
+input{
+    height: 60px;
+    width: 50%;
+}
+.logindiv>button{
+    margin-top: 30px;
+    height: 60px;
+    width: 50%;
+    border-radius: 50px;
+    background: orangered;
+    color: white;
+    
+}
+.logindiv>.username{
+    /* border: 3px solid red; */
+    width: 50%;
+}
+.logindiv>.password{
+    
+    width: 50%;
+}
+.logindiv>.rememberme{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 50%;
+    height: 20px;
+}
+.rememberme>p{
+margin-left: 350px;
+margin-top: -3px;
+font-size: 18px;
+}
+
+#rem{
+    height: 20px;
+    width: 20px;
+}
+body{
+    background-color: #3E3B3A;
+}
+
+
+
