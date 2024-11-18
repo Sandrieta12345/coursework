@@ -2,16 +2,26 @@
     background-color: black;
 }
 .son{
-    margin-left: 30%;
+    /* margin-left: 30%; */
     color: white;
+    text-align: center;
+    height:50px ;
+    margin-bottom: 60%;
+
     
 }
 .dad{ 
     margin-top: 30px;
     height: 60px;
-    width: 50%;
-    border-radius: 50px;
+    width: 20%;
+    border-radius: 20px;
     background: orangered;
     color: white;
     text-align: center;
+    margin-left: 40%;
+}
+.nav-item :hover{
+color: blue;
+
+
 }
